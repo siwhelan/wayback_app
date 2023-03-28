@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Django artifacts
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# VSCode artifacts
+.vscode/
+
+# Git artifacts
+.git/
