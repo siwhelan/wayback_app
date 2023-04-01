@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wayback Machine Checker</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-BJTk5RbVdJvYtOrNQ2Fi0Ntq62V7AXu3C9An/7Fgj0aodH8pHHhjcfnLZjMDT76m" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'wayback_app/css/styles.css' %}">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="text-center">Wayback Machine Snapshot</h1>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <p class="text-center">The URL is available in the Wayback Machine at the following URL:</p>
+
+                <div class="text-center">
+                    <a href="{{ snapshot_url }}">{{ snapshot_url }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-T2I4fj1nJWg9JwFVzL0sq0S7IxCjZryEGv+vJ20dbD8x4y4x4aKIFzYQWVuJ8Ipk" crossorigin="anonymous"></script>
+</body>
+</html>
