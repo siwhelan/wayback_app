@@ -1,6 +1,6 @@
 # Optimized Django App Setup in Windows VSCode 🚀🐍🛠️ 
 
-This is the source code for a tutorial I'm writing on Dev.to that guides you through the process of setting up a new Django web app. The app itself interacts with the Internet Archive's Wayback Machine API, and allows users to input a URL and an optional timestamp, and then check if the Wayback Machine has a snapshot of that URL available. If a snapshot exists, the app displays the archived content; if not, it informs the user that the URL isn't available in the Wayback Machine.
+This is the source code for a tutorial I'm writing on Dev.to that guides you through the process of setting up a new Django web app. The app itself interacts with the Internet Archive's Wayback Machine API, and allows users to input a URL, and then check if the Wayback Machine has a snapshot of that URL available. If a snapshot exists, the app displays the archived content; if not, it informs the user that the URL isn't available in the Wayback Machine.
 
 The tutorial covers everything from installing Python and Django to creating a virtual environment and generating a requirements.txt file. You'll also learn how to add basic HTML and CSS to your app, and how to Dockerize it.
 
